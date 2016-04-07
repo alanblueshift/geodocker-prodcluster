@@ -9,13 +9,13 @@ geodocker-hadoop-base:
     build: ./hadoop/base
 geodocker-hadoop-data:
     image: daunnc/geodocker-hadoop-data:latest
-    build: ./hadoop/nodes/data
+    build: ./hadoop/data
 geodocker-hadoop-name:
     image: daunnc/geodocker-hadoop-name:latest
-    build: ./hadoop/nodes/name
+    build: ./hadoop/name
 geodocker-hadoop-sname:
     image: daunnc/geodocker-hadoop-sname:latest
-    build: ./hadoop/nodes/sname
+    build: ./hadoop/sname
 geodocker-accumulo-base:
     image: daunnc/geodocker-accumulo-base:latest
     build: ./accumulo/base
